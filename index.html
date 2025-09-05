@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfil de Estudiante - Bryan Escobar</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Perfil de Estudiante</a>
+        </div>
+    </nav>
+
+    <div class="container mt-4">
+        <div class="row justify-content-center">
+            <div class="col-md-8">
+                <div class="card">
+                    <div class="card-header bg-primary text-white">
+                        <h1 class="h3 mb-0">Información del Estudiante</h1>
+                    </div>
+                    <div class="card-body">
+                        <div class="row mb-4">
+                            <div class="col-md-3">
+                                <img src="https://ui-avatars.com/api/?name=Bryan+Escobar&background=0078d7&color=fff&size=150"
+                                    alt="Avatar Bryan Escobar" class="img-fluid rounded-circle">
+                            </div>
+                            <div class="col-md-9">
+                                <h2>Bryan Escobar</h2>
+                                <p><strong>Carnet:</strong> 2023-EP-603</p>
+                                <span class="badge bg-success fs-6">Estudiante Activo</span>
+                            </div>
+                        </div>
+
+                        <h3>Materias Aprobadas</h3>
+
+                        <div class="accordion" id="materiasAccordion">
+                            <!-- Materia 1: Administración de Sistemas Operativos -->
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingOne">
+                                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                        Administración de Sistemas Operativos
+                                    </button>
+                                </h2>
+                                <div id="collapseOne" class="accordion-collapse collapse show"
+                                    aria-labelledby="headingOne" data-bs-parent="#materiasAccordion">
+                                    <div class="accordion-body">
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <ul class="list-unstyled">
+                                                    <li><strong>Año:</strong> 2024</li>
+                                                    <li><strong>Ciclo:</strong> I</li>
+                                                    <li><strong>Promedio:</strong> 8.7</li>
+                                                </ul>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <span class="badge bg-success">Aprobada</span>
+                                            </div>
+                                        </div>
+                                        <p class="mt-3"><strong>Descripción:</strong> Curso enfocado en la
+                                            administración, configuración y mantenimiento de sistemas operativos
+                                            modernos, incluyendo aspectos de seguridad, automatización y gestión de
+                                            recursos del sistema.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Materia 2: Bases de Datos 1 -->
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingTwo">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                        Bases de Datos 1
+                                    </button>
+                                </h2>
+                                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                                    data-bs-parent="#materiasAccordion">
+                                    <div class="accordion-body">
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <ul class="list-unstyled">
+                                                    <li><strong>Año:</strong> 2024</li>
+                                                    <li><strong>Ciclo:</strong> I</li>
+                                                    <li><strong>Promedio:</strong> 9.0</li>
+                                                </ul>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <span class="badge bg-success">Aprobada</span>
+                                            </div>
+                                        </div>
+                                        <p class="mt-3"><strong>Descripción:</strong> Introducción a los conceptos
+                                            fundamentales de bases de datos relacionales, modelado de datos,
+                                            normalización y lenguaje SQL para consultas básicas e intermedias.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Materia 3: Diseño Web -->
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingThree">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseThree" aria-expanded="false"
+                                        aria-controls="collapseThree">
+                                        Diseño Web
+                                    </button>
+                                </h2>
+                                <div id="collapseThree" class="accordion-collapse collapse"
+                                    aria-labelledby="headingThree" data-bs-parent="#materiasAccordion">
+                                    <div class="accordion-body">
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <ul class="list-unstyled">
+                                                    <li><strong>Año:</strong> 2024</li>
+                                                    <li><strong>Ciclo:</strong> II</li>
+                                                    <li><strong>Promedio:</strong> 8.5</li>
+                                                </ul>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <span class="badge bg-success">Aprobada</span>
+                                            </div>
+                                        </div>
+                                        <p class="mt-3"><strong>Descripción:</strong> Estudio de los principios y
+                                            herramientas para el diseño y desarrollo de sitios web modernos, incluyendo
+                                            HTML5, CSS3, JavaScript y frameworks como Bootstrap.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Materia 4: Bases de Datos 2 -->
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingFour">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseFour" aria-expanded="false"
+                                        aria-controls="collapseFour">
+                                        Bases de Datos 2
+                                    </button>
+                                </h2>
+                                <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+                                    data-bs-parent="#materiasAccordion">
+                                    <div class="accordion-body">
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <ul class="list-unstyled">
+                                                    <li><strong>Año:</strong> 2024</li>
+                                                    <li><strong>Ciclo:</strong> II</li>
+                                                    <li><strong>Promedio:</strong> 8.9</li>
+                                                </ul>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <span class="badge bg-success">Aprobada</span>
+                                            </div>
+                                        </div>
+                                        <p class="mt-3"><strong>Descripción:</strong> Profundización en bases de datos
+                                            avanzadas, procedimientos almacenados, triggers, optimización de consultas y
+                                            administración de bases de datos empresariales.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Materia 5: Programación Orientada a Objetos -->
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingFive">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseFive" aria-expanded="false"
+                                        aria-controls="collapseFive">
+                                        Programación Orientada a Objetos
+                                    </button>
+                                </h2>
+                                <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive"
+                                    data-bs-parent="#materiasAccordion">
+                                    <div class="accordion-body">
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <ul class="list-unstyled">
+                                                    <li><strong>Año:</strong> 2025</li>
+                                                    <li><strong>Ciclo:</strong> I</li>
+                                                    <li><strong>Promedio:</strong> 9.2</li>
+                                                </ul>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <span class="badge bg-success">Aprobada</span>
+                                            </div>
+                                        </div>
+                                        <p class="mt-3"><strong>Descripción:</strong> Desarrollo de aplicaciones
+                                            utilizando el paradigma de programación orientada a objetos, conceptos de
+                                            clases, herencia, polimorfismo y encapsulación.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="mt-4">
+                            <h4>Resumen Académico</h4>
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <div class="card bg-light">
+                                        <div class="card-body text-center">
+                                            <h5>Materias Aprobadas</h5>
+                                            <h2 class="text-primary">5</h2>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="card bg-light">
+                                        <div class="card-body text-center">
+                                            <h5>Promedio General</h5>
+                                            <h2 class="text-success">8.9</h2>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="card bg-light">
+                                        <div class="card-body text-center">
+                                            <h5>Estado</h5>
+                                            <span class="badge bg-success fs-6">Activo</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="text-center mt-5 mb-3 text-muted">
+        <p>&copy; 2025 Bryan Escobar - Perfil de Estudiante</p>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
